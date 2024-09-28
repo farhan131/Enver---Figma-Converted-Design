@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+    position: relative;
+    z-index: 10;
+}
+
+.col-1-gradient {
+    width: 200px;
+    height: 1300px;
+    position: absolute;
+    top: -910px;
+    left: -160px;
+    /* background: rgb(84, 84, 212); */
+    background: linear-gradient(180deg, rgba(84, 84, 212, 1) 0%, rgba(84, 84, 212, 0.42) 100%);
+    rotate: -54.37deg;
+    border-radius: 999px;
+    filter: blur(300px);
+    z-index: 1;
+}
+
+.col-2-gradient {
+    width: 200px;
+    height: 1300px;
+    position: absolute;
+    top: -650px;
+    left: 160px;
+    /* background: rgb(84, 84, 212); */
+    background: linear-gradient(180deg, rgb(251 168 28 / 26%) 0%, rgb(224 86 136 / 15%) 100%);
+    rotate: 54.37deg;
+    border-radius: 999px;
+    filter: blur(300px);
+    z-index: 1;
+}
+
+iframe{
+    width: 100%;
+    height: 700px;
+}
+
+.section-2-gradient-1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: -0;
+    left: 0;
+    /* background: rgb(84, 84, 212); */
+    background: linear-gradient(180deg, rgba(84, 84, 212, 1) 0%, rgba(84, 84, 212, 0.42) 100%);
+    rotate: 54.37deg;
+    border-radius: 999px;
+    filter: blur(150px);
+    z-index: 1;
+}
+
+.section-2-gradient-2 {
+    width: 200px;
+    height: 960px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    /* background: rgb(84, 84, 212); */
+    background: linear-gradient(180deg, rgb(251 168 28 / 26%) 0%, rgb(224 86 136 / 15%) 100%);
+    rotate: 54.37deg;
+    border-radius: 999px;
+    filter: blur(250px);
+    z-index: 1;
+}
