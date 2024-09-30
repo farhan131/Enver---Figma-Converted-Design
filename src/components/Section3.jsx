@@ -46,7 +46,8 @@ const Section3 = () => {
           </div>
         </div>
       </div>
-      <img
+      <div className="block md:hidden">
+        <img
           src="/Group 162508.png"
           alt=""
           className="object-contain self-start"
@@ -59,6 +60,7 @@ const Section3 = () => {
             <img src="/Icon7.png" alt="" />
           </div>
         </div>
+      </div>
       <div className="relative">
         <img
           src="/Vector 13.png"
