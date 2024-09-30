@@ -39,7 +39,7 @@ body {
     z-index: 1;
 }
 
-iframe{
+iframe {
     width: 100%;
     height: 700px;
 }
@@ -59,15 +59,36 @@ iframe{
 }
 
 .section-2-gradient-2 {
-    width: 200px;
-    height: 960px;
+    width: 600px;
+    height: 2000px;
     position: absolute;
-    top: 100px;
+    top: -400px;
+    right: 400px;
+    /* background: rgb(84, 84, 212); */
+    background: linear-gradient(180deg, rgb(251 168 28 / 13%) 0%, rgb(224 86 136 / 15%) 100%);
+    rotate: 60.37deg;
+    border-radius: 999px;
+    filter: blur(520px);
+    z-index: 1;
+}
+
+.section-3-gradient-1 {
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 0;
     right: 0;
     /* background: rgb(84, 84, 212); */
-    background: linear-gradient(180deg, rgb(251 168 28 / 26%) 0%, rgb(224 86 136 / 15%) 100%);
+    background: linear-gradient(180deg, rgba(84, 84, 212, 1) 0%, rgba(84, 84, 212, 0.42) 100%);
     rotate: 54.37deg;
     border-radius: 999px;
-    filter: blur(250px);
+    filter: blur(150px);
     z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+    iframe
+    {
+        height: 400px;
+    }
 }
